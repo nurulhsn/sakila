@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body{
+    font-family: 'Poppins';
+    font-weight: 400;
+    background: linear-gradient(to right, #ffe0ec, #f8e8ff);
+    color: #4a4a4a;
+    line-height: 1.9;
+    margin: 20px;
+    font-size: 15px;
+}
+
+/* Judul utama */
+h1{
+    font-family: 'Poppins';
+    color: #d63384;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+/* Subjudul */
+h2{
+    font-family: 'Poppins';
+    color: #c2185b;
+    border-left: 5px solid #ff85b3;
+    padding-left: 12px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 24px;
+    font-weight: 600;
+    background-color: rgba(255,255,255,0.45);
+    border-radius: 8px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+/* Heading kecil */
+h3{
+    font-family: 'Poppins';
+    color: #7b2cbf;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* Paragraph */
+p{
+    text-align: justify;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* List */
+li{
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* Code chunk */
+pre{
+    background-color: #fff0f6;
+    border-radius: 12px;
+    padding: 14px;
+    border-left: 4px solid #d63384;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    overflow-x: auto;
+
+    font-size: 14px;
+    font-weight: 800;
+    color: #3d3d3d;
+    line-height: 1.7;
+}
+
+/* Syntax code */
+code{
+    color: #7b2cbf;
+    font-weight: 800;
+    font-size: 14px;
+}
+
+/* Table */
+table{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-top: 15px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    font-size: 14px;
+}
+
+/* Header tabel */
+th{
+    background: linear-gradient(to right, #ff85b3, #c77dff);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* Isi tabel */
+td{
+    padding: 8px;
+    border-bottom: 1px solid #f0d6e6;
+    font-weight: 500;
+}
+
+/* Hover tabel */
+tr:hover{
+    background-color: #fff0f6;
+}
+
+/* TOC / Sidebar */
+#TOC{
+    background-color: white;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    font-size: 14px;
+}
+
+/* Link */
+a{
+    color: #c2185b;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover{
+    color: #7b2cbf;
+}
+
+/* Blockquote */
+blockquote{
+    background-color: #fff0f6;
+    border-left: 4px solid #ff85b3;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+/* Math equation */
+.MathJax{
+    font-size: 105% !important;
+}
+
+/* Gambar */
+img{
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Horizontal line */
+hr{
+    border: none;
+    height: 2px;
+    background: linear-gradient(to right, #ff85b3, #c77dff);
+}
+
+/* Nama author */
+.author{
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 20px;
+    color: #7b2cbf;
+    font-weight: 600;
+}
+
+/* Tanggal */
+.date{
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 15px;
+    color: #c2185b;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
